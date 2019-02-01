@@ -1,0 +1,29 @@
+{
+    "name": "FriendFinder",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SpiderRam/FriendFinder.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/SpiderRam/FriendFinder/issues"
+    },
+    "homepage": "https://github.com/SpiderRam/FriendFinder#readme",
+    "dependencies": {
+      "body-parser": "^1.18.3",
+      "express": "^4.16.3",
+      "jquery": "^3.3.1",
+      "jshint": "^2.9.6",
+      "nodemon": "^1.18.3",
+      "path": "^0.12.7"
+    }
+  }
