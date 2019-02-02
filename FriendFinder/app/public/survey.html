@@ -5,28 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Friend Finder</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Acme"
-      rel="stylesheet"
-    />
+
     <link rel="stylesheet" href="style.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Rock+Salt"
       rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
     />
+
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"
     ></script>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Which Belcher Are You?</h1>
+        <p class="lead">
+          Find out where you fit in with your favorite burger family. Pick the
+          statements that best match your reactions.
+        </p>
+      </div>
+    </div>
   </head>
 
   <body>
@@ -61,278 +62,140 @@
         </div>
       </div>
     </div>
-
-    <div class="card">
-      <div id="topHeader">
-        <img id="serenity" src="./images/serenity-logo.jpg" />
-        <p id="headerText">
-          Just a little info about you, the Alliance will never know.
-        </p>
-      </div>
-      <div class="card-body">
-        <form method="POST">
-          <div class="form-group">
-            <label for="formGroupExampleInput">Your name (required)</label>
-            <input type="text" class="form-control" id="name" />
-          </div>
-          <div class="form-group">
-            <label for="formGroupExampleInput2"
-              >Link to photo image (required)</label
-            >
-            <input
-              type="text"
-              class="form-control"
-              id="photo"
-              placeholder="http:// etc."
-            />
-          </div>
-        </form>
-      </div>
-    </div>
-
-    <p id="instructions">
-      Please rate your feelings on the following (1 = Strongly Disagree, 5 =
-      Strongly Agree):
-    </p>
-
+    <br />
     <div id="questions">
       <div id="q1">
         <form class="qform">
-          <p class="question">Question 1:</p>
+          <p class="question">#1</p>
           <p>
-            I appreciate it when people lecture me on the wickedness of my ways.
+            Burgers are an art and I am an artist.
           </p>
           <div>
-            <input type="radio" id="q1-1" name="q1" value="1" />
-            <label for="q1-1">1</label>
+            <input type="radio" id="q1-bob" name="q1" value="1" />
+            <label for="q1-1">Absolutely</label>
 
-            <input type="radio" id="q1-2" name="q1" value="2" />
-            <label for="q1-2">2</label>
+            <input type="radio" id="q1-linda" name="q1" value="2" />
+            <label for="q1-2">Let's just have a good time!</label>
 
-            <input type="radio" id="q1-3" name="q1" value="3" />
-            <label for="q1-3">3</label>
+            <input type="radio" id="q1-tina" name="q1" value="3" />
+            <label for="q1-3">Jimmy Jr likes burgers.</label>
 
-            <input type="radio" id="q1-4" name="q1" value="4" />
-            <label for="q1-4">4</label>
+            <input type="radio" id="q1-gene" name="q1" value="4" />
+            <label for="q1-4">Speaking of burgers, where's my costume?</label>
 
-            <input type="radio" id="q1-5" name="q1" value="5" />
-            <label for="q1-5">5</label>
+            <input type="radio" id="q1-louise" name="q1" value="5" />
+            <label for="q1-5">By art you mean fart, right?</label>
           </div>
         </form>
       </div>
-
+      <br />
       <div id="q2">
         <form class="qform">
-          <p class="question">Question 2:</p>
-          <p>Sometimes I have a problem with my brain being missing.</p>
+          <p class="question">#2</p>
+          <p>There's never a bad time to start singing.</p>
           <div>
-            <input type="radio" id="q2-1" name="q2" value="1" />
-            <label for="q2-1">1</label>
+            <input type="radio" id="q2-bob" name="q2" value="1" />
+            <label for="q2-1">Yes. Yes, there is.</label>
 
-            <input type="radio" id="q2-2" name="q2" value="2" />
-            <label for="q2-2">2</label>
+            <input type="radio" id="q2-linda" name="q2" value="2" />
+            <label for="q2-2">I agreeee (singing voice).</label>
 
-            <input type="radio" id="q2-3" name="q2" value="3" />
-            <label for="q2-3">3</label>
+            <input type="radio" id="q2-tina" name="q2" value="3" />
+            <label for="q2-3">Uh, I should sing for Jimmy Jr.</label>
 
-            <input type="radio" id="q2-4" name="q2" value="4" />
-            <label for="q2-4">4</label>
+            <input type="radio" id="q2-gene" name="q2" value="4" />
+            <label for="q2-4">I can burp and sing at the same time.</label>
 
-            <input type="radio" id="q2-5" name="q2" value="5" />
-            <label for="q2-5">5</label>
+            <input type="radio" id="q2-louise" name="q2" value="5" />
+            <label for="q2-5">Oh, god, Mom. Just end me now.</label>
           </div>
         </form>
       </div>
-
+      <br />
       <div id="q3">
         <form class="qform">
-          <p class="question">Question 3:</p>
-          <p>Sometimes people take an irrational dislike to me.</p>
-          <div>
-            <input type="radio" id="q3-1" name="q3" value="1" />
-            <label for="q3-1">1</label>
-
-            <input type="radio" id="q3-2" name="q3" value="2" />
-            <label for="q3-2">2</label>
-
-            <input type="radio" id="q3-3" name="q3" value="3" />
-            <label for="q3-3">3</label>
-
-            <input type="radio" id="q3-4" name="q3" value="4" />
-            <label for="q3-4">4</label>
-
-            <input type="radio" id="q3-5" name="q3" value="5" />
-            <label for="q3-5">5</label>
-          </div>
-        </form>
-      </div>
-
-      <div id="q4">
-        <form class="qform">
-          <p class="question">Question 4:</p>
-          <p>Jayne is a girl's name.</p>
-          <div>
-            <input type="radio" id="q4-1" name="q4" value="1" />
-            <label for="q4-1">1</label>
-
-            <input type="radio" id="q4-2" name="q4" value="2" />
-            <label for="q4-2">2</label>
-
-            <input type="radio" id="q4-3" name="q4" value="3" />
-            <label for="q4-3">3</label>
-
-            <input type="radio" id="q4-4" name="q4" value="4" />
-            <label for="q4-4">4</label>
-
-            <input type="radio" id="q4-5" name="q4" value="5" />
-            <label for="q4-5">5</label>
-          </div>
-        </form>
-      </div>
-
-      <div id="q5">
-        <form class="qform">
-          <p class="question">Question 5:</p>
-          <p>I never back down from a fight.</p>
-          <div>
-            <input type="radio" id="q5-1" name="q5" value="1" />
-            <label for="q5-1">1</label>
-
-            <input type="radio" id="q5-2" name="q5" value="2" />
-            <label for="q5-2">2</label>
-
-            <input type="radio" id="q5-3" name="q5" value="3" />
-            <label for="q5-3">3</label>
-
-            <input type="radio" id="q5-4" name="q5" value="4" />
-            <label for="q5-4">4</label>
-
-            <input type="radio" id="q5-5" name="q5" value="5" />
-            <label for="q5-5">5</label>
-          </div>
-        </form>
-      </div>
-
-      <div id="q6">
-        <form class="qform">
-          <p class="question">Question 6:</p>
-          <p>I occasionally moonlight as a criminal mastermind.</p>
-          <div>
-            <input type="radio" id="q6-1" name="q6" value="1" />
-            <label for="q6-1">1</label>
-
-            <input type="radio" id="q6-2" name="q6" value="2" />
-            <label for="q6-2">2</label>
-
-            <input type="radio" id="q6-3" name="q6" value="3" />
-            <label for="q6-3">3</label>
-
-            <input type="radio" id="q6-4" name="q6" value="4" />
-            <label for="q6-4">4</label>
-
-            <input type="radio" id="q6-5" name="q6" value="5" />
-            <label for="q6-5">5</label>
-          </div>
-        </form>
-      </div>
-
-      <div id="q7">
-        <form class="qform">
-          <p class="question">Question 7:</p>
+          <p class="question">#3</p>
           <p>
-            Any well-bred petty crook knows that the small, concealable weapons
-            go to the far left of the place setting.
+            Boys and horses are the most important things in my exhilarating
+            life.
           </p>
           <div>
-            <input type="radio" id="q7-1" name="q7" value="1" />
-            <label for="q7-1">1</label>
+            <input type="radio" id="q3-bob" name="q3" value="1" />
+            <label for="q3-1">What? No, that's weird.</label>
 
-            <input type="radio" id="q7-2" name="q7" value="2" />
-            <label for="q7-2">2</label>
+            <input type="radio" id="q3-linda" name="q3" value="2" />
+            <label for="q3-2"
+              >If it's important to my sweet babies, it's important to
+              me.</label
+            >
 
-            <input type="radio" id="q7-3" name="q7" value="3" />
-            <label for="q7-3">3</label>
+            <input type="radio" id="q3-tina" name="q3" value="3" />
+            <label for="q3-3">God, yes.</label>
 
-            <input type="radio" id="q7-4" name="q7" value="4" />
-            <label for="q7-4">4</label>
+            <input type="radio" id="q3-gene" name="q3" value="4" />
+            <label for="q3-4">Horses smell weird.</label>
 
-            <input type="radio" id="q7-5" name="q7" value="5" />
-            <label for="q7-5">5</label>
+            <input type="radio" id="q3-louise" name="q3" value="5" />
+            <label for="q3-5">I'm not Tina. I'm normal.</label>
           </div>
         </form>
       </div>
-
-      <div id="q8">
+      <br />
+      <div id="q4">
         <form class="qform">
-          <p class="question">Question 8:</p>
-          <p>I don't like the idea of someone hearing what I'm thinking.</p>
+          <p class="question">#4</p>
+          <p>
+            Don't you ever, ever touch my hat or I will kill you in your sleep.
+          </p>
           <div>
-            <input type="radio" id="q8-1" name="q8" value="1" />
-            <label for="q8-1">1</label>
+            <input type="radio" id="q4-bob" name="q4" value="1" />
+            <label for="q4-1">Okay, that doesn't sound good.</label>
 
-            <input type="radio" id="q8-2" name="q8" value="2" />
-            <label for="q8-2">2</label>
+            <input type="radio" id="q4-linda" name="q4" value="2" />
+            <label for="q4-2">What! Did Louise say that??</label>
 
-            <input type="radio" id="q8-3" name="q8" value="3" />
-            <label for="q8-3">3</label>
+            <input type="radio" id="q4-tina" name="q4" value="3" />
+            <label for="q4-3">Yeah, I wouldn't do that if I were you.</label>
 
-            <input type="radio" id="q8-4" name="q8" value="4" />
-            <label for="q8-4">4</label>
+            <input type="radio" id="q4-gene" name="q4" value="4" />
+            <label for="q4-4">Oh! I want to see a murder!</label>
 
-            <input type="radio" id="q8-5" name="q8" value="5" />
-            <label for="q8-5">5</label>
+            <input type="radio" id="q4-louise" name="q4" value="5" />
+            <label for="q4-5">Hell yeah. Don't even think about it.</label>
           </div>
         </form>
       </div>
-
-      <div id="q9">
+      <br />
+      <div id="q5">
         <form class="qform">
-          <p class="question">Question 9:</p>
-          <p>Getting stabbed makes me a mite ornery.</p>
+          <p class="question">#5</p>
+          <p>
+            Can someone tell me what a butthole looks like? I keep trying but I
+            can't see mine.
+          </p>
           <div>
-            <input type="radio" id="q9-1" name="q9" value="1" />
-            <label for="q9-1">1</label>
+            <input type="radio" id="q5-bob" name="q5" value="1" />
+            <label for="q5-1"
+              >No, no. We're not starting this discussion today.</label
+            >
 
-            <input type="radio" id="q9-2" name="q9" value="2" />
-            <label for="q9-2">2</label>
+            <input type="radio" id="q5-linda" name="q5" value="2" />
+            <label for="q5-2">Don't say butthole at the dinner table!</label>
 
-            <input type="radio" id="q9-3" name="q9" value="3" />
-            <label for="q9-3">3</label>
+            <input type="radio" id="q5-tina" name="q5" value="3" />
+            <label for="q5-3">I bet Jimmy Jr has a beautiful butthole.</label>
 
-            <input type="radio" id="q9-4" name="q9" value="4" />
-            <label for="q9-4">4</label>
+            <input type="radio" id="q5-gene" name="q5" value="4" />
+            <label for="q5-4">Yeah, it's so hard to get the right angle.</label>
 
-            <input type="radio" id="q9-5" name="q9" value="5" />
-            <label for="q9-5">5</label>
+            <input type="radio" id="q5-louise" name="q5" value="5" />
+            <label for="q5-5">Go look in a mirror.</label>
           </div>
         </form>
       </div>
-
-      <div id="q10">
-        <form class="qform">
-          <p class="question">Question 10:</p>
-          <p>A pretty floral bonnet is my favorite kind of hat.</p>
-          <div>
-            <input type="radio" id="q10-1" name="q10" value="1" />
-            <label for="q10-1">1</label>
-
-            <input type="radio" id="q10-2" name="q10" value="2" />
-            <label for="q10-2">2</label>
-
-            <input type="radio" id="q10-3" name="q10" value="3" />
-            <label for="q10-3">3</label>
-
-            <input type="radio" id="q10-4" name="q10" value="4" />
-            <label for="q10-4">4</label>
-
-            <input type="radio" id="q10-5" name="q10" value="5" />
-            <label for="q10-5">5</label>
-          </div>
-        </form>
-      </div>
-
+      <br />
       <div>
-        <button id="submit" type="submit">tí jiāo</button>
+        <button id="submit" type="submit">All done</button>
       </div>
     </div>
 
@@ -378,26 +241,6 @@
           userScores.push(answerValue);
         });
         $.each($("input[name='q5']:checked"), function() {
-          var answerValue = $(this).val();
-          userScores.push(answerValue);
-        });
-        $.each($("input[name='q6']:checked"), function() {
-          var answerValue = $(this).val();
-          userScores.push(answerValue);
-        });
-        $.each($("input[name='q7']:checked"), function() {
-          var answerValue = $(this).val();
-          userScores.push(answerValue);
-        });
-        $.each($("input[name='q8']:checked"), function() {
-          var answerValue = $(this).val();
-          userScores.push(answerValue);
-        });
-        $.each($("input[name='q9']:checked"), function() {
-          var answerValue = $(this).val();
-          userScores.push(answerValue);
-        });
-        $.each($("input[name='q10']:checked"), function() {
           var answerValue = $(this).val();
           userScores.push(answerValue);
         });
