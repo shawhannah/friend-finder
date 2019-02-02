@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SpiderRam/FriendFinder.git"
+    "url": "git+ https://shawhannah.github.io/friend-finder/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SpiderRam/FriendFinder/issues"
+    "url": "https://shawhannah.github.io/friend-finder/"
   },
-  "homepage": "https://github.com/SpiderRam/FriendFinder#readme",
+  "homepage": "https://shawhannah.github.io/friend-finder/",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
