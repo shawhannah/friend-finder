@@ -1,11 +1,10 @@
 {
   "name": "FriendFinder",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "find your new best friend with the Belchers",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
